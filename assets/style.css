@@ -38,3 +38,23 @@
     border-radius: 15px;
     border: none;
 }
+.container_link i{
+    display: none;
+    color: white;
+}
+
+/* mobile first  */
+
+
+@media screen and (max-width: 767px) {
+   .container_link a {
+    display: none;
+
+   }
+   .container_link button{
+    display: none;
+   }
+   .container_link i{
+    display: inline;
+   }
+}
