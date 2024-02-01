@@ -68,7 +68,7 @@ body {
 
 [class*="col-"] {
     padding: 1rem;
-    border: 1px solid black;
+    /*  border: 1px solid black; */
 }
 
 
@@ -175,6 +175,58 @@ body {
     color: rgb(143 133 133);
 }
 
+#planning {
+    background-color: var(--responsive--primary);
+}
+
+.card_planning img {
+    width: 80%;
+    margin-left: 20px;
+
+}
+
+.card_planning h3 {
+    font-weight: 600;
+    color: var(--responsive--light);
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.card_planning p {
+    color: var(--responsive--light);
+
+}
+
+.card_planning_bottom {
+    background-color: var(--responsive--light);
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 6rem;
+    border-radius: 50px;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card_planning_bottom img {
+    width: 60%;
+}
+
+.card_planning_bottom i {
+    border-radius: 100%;
+    background-color: var(--responsive--primary);
+    color: var(--responsive--dark);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card_planning_bottom p {
+    font-style: italic;
+}
 
 
 /* mobile first  */
