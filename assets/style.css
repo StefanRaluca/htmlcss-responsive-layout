@@ -13,6 +13,10 @@
     --responsive--light: rgba(255, 255, 255, 1);
 }
 
+body {
+    font-family: Open Sans;
+}
+
 /* style of header */
 #container_header {
     display: flex;
@@ -43,7 +47,7 @@
 
 .container_link i {
     display: none;
-    color: white;
+    color: var(--responsive--light);
 }
 
 
@@ -90,29 +94,97 @@
     width: calc((100% / 12) * 4);
 }
 
-
-.card_right img {
-    width: 70%;
-}
+/* style of cards first section */
 
 .card {
-    padding: 0.5rem;
-    display: flex;
-    justify-content: center;
-    border-radius: 25px;
     background-color: var(--responsive--secondary);
+    border-radius: 1.5rem;
+    gap: 1rem;
+    display: flex;
+    padding: 2rem 0rem 1rem 1rem;
 }
 
-.card_left h3 {
+.card_left h2 {
     margin-bottom: 10px;
+    font-size: 24px;
+    color: var(--responsive--header);
 }
+
+
+.card_left button {
+    width: 60%;
+    background-color: var(--responsive--header);
+    color: var(--responsive--light);
+    padding: 5px;
+    margin-top: 1rem;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+
+
+
+.card_left i {
+    margin-right: 10px;
+}
+
+
+.card_right img {
+    width: 100%;
+}
+
+
+
+.card_small {
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 16px;
+    display: flex;
+    background-color: var(--responsive--secondary);
+    border-radius: 50px;
+}
+
+.card_small i {
+    color: var(--responsive--header);
+    font-size: 4.2rem;
+    margin-top: 5px;
+}
+
+
+.bottom_card img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    margin-bottom: -0.5rem;
+    ;
+}
+
+.top_card {
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+.top_card h2 {
+    color: var(--responsive--header);
+
+}
+
+
+.text {
+    font-weight: 700;
+    color: rgb(143 133 133);
+}
+
+
 
 /* mobile first  */
 
 
 @media screen and (max-width: 767px) {
 
-
+    header {
+        text-align: left;
+    }
 
     .container_link a {
         display: none;
@@ -171,6 +243,7 @@
         width: calc((100% / 12) * 6);
     }
 }
+
 /* desktop */
 
 @media only screen and (min-width: 1200px) {
