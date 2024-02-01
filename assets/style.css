@@ -20,6 +20,10 @@
     align-items: center;
     background-color: var(--responsive--header);
 }
+.container_logo img{
+    margin-top: 10px;
+}
+
 
 /* style of containers */
 .container_link a {
