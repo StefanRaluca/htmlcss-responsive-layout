@@ -225,6 +225,7 @@ body {
     border-radius: 50px;
     padding: 1rem;
     gap: 1rem;
+    align-items: center;
 }
 
 .card_planning_bottom img {
@@ -261,6 +262,7 @@ body {
     color: var(--responsive--primary);
     margin-bottom: 10px;
     margin-top: 5px;
+    margin: 5px 0 10px 0;
 }
 
 .top_partners span,
@@ -310,8 +312,7 @@ body {
 .container h1 {
     color: var(--responsive--light);
     text-align: center;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 10px 0 10px 0;
 }
 
 .benefits h2 {
@@ -401,7 +402,54 @@ body {
     text-decoration: none;
 }
 
+/* start section get started */
+#get_started {
+    background-color: var(--responsive--primary);
+}
 
+
+.container_get_started {
+    text-align: center;
+    line-height: 40px;
+}
+
+.container_get_started span {
+    font-size: 10px;
+    color: lightgray;
+
+}
+
+.container_get_started h2 {
+    color: var(--responsive--light);
+    font-size: 25px;
+}
+
+.container_get_started h1 {
+    color: var(--responsive--footer-free);
+    font-size: 50px;
+}
+
+
+.container_get_started p {
+    line-height: 20px;
+    margin: 25px 0 10px 10px;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.container_get_started a {
+    background-color: var(--responsive--light);
+    color: var(--responsive--primary);
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+}
+
+.copyright {
+    font-size: 10px;
+    color: whitesmoke;
+}
 
 /* mobile first  */
 
