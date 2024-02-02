@@ -337,7 +337,69 @@ body {
 }
 
 
+/* start section about us */
 
+
+/* style of left column */
+.about_us {
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--responsive--light);
+
+}
+
+.about_us h1 {
+    color: var(--responsive--primary);
+    font-size: 50px;
+    text-align: justify;
+}
+
+.about_us p {
+    line-height: 30px;
+}
+
+/* style of right column */
+.about_us_right {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    margin-top: 32px;
+}
+
+.about_us_image img {
+    width: 75%;
+    border-radius: 50%;
+}
+
+.about_us_image {
+    position: relative;
+}
+
+
+.about_us_image i {
+    color: var(--responsive--primary);
+    position: absolute;
+    font-size: 60px;
+    left: 120px;
+}
+
+
+
+.about_us_right h4 {
+    font-size: 25px;
+    color: var(--responsive--primary);
+    font-weight: 600;
+}
+
+.button {
+    background-color: var(--responsive--primary);
+    color: var(--responsive--light);
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 10px;
+    text-decoration: none;
+}
 
 
 
