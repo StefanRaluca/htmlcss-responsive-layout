@@ -450,6 +450,14 @@ body {
     font-size: 10px;
     color: whitesmoke;
 }
+/* start footer*/
+#footer_site{
+    background-color: var(--responsive--dark);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
 
 /* mobile first  */
 
