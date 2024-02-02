@@ -450,14 +450,19 @@ body {
     font-size: 10px;
     color: whitesmoke;
 }
+
 /* start footer*/
-#footer_site{
+#footer_site {
     background-color: var(--responsive--dark);
     color: whitesmoke;
     text-align: center;
     padding: 10px;
 }
 
+.footer {
+    flex-direction: column;
+    align-content: center;
+}
 
 /* mobile first  */
 
@@ -484,6 +489,12 @@ body {
     .col-12 {
         width: 100%;
     }
+
+
+    .col-md-6 {
+        width: 70%
+    }
+
 
 }
 
@@ -520,7 +531,12 @@ body {
     .col-lg-6 {
         width: calc((100% / 12) * 6);
     }
+
+    .col-md-6 {
+        width: 60%;
+    }
 }
+
 
 /* desktop */
 
