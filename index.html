@@ -3,11 +3,10 @@
 
 <head>
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Open+Sans:wght@300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Layout</title>
@@ -21,21 +20,22 @@
 
     <!-- start header -->
 
-    <header id="container_header">
+    <header id="header">
+        <div class="container_header">
+            <!-- first container with logo -->
+            <div class="container_logo">
+                <img src="./assets/img/logo.png" alt="">
+            </div>
 
-        <!-- first container with logo -->
-        <div class="container_logo">
-            <img src="./assets/img/logo.png" alt="">
-        </div>
-
-        <!-- container with links and button -->
-        <div class="container_link">
-            <i class="fa-solid fa-bars"></i>
-            <a href="#">Planning</a>
-            <a href="#">Testimonials</a>
-            <a href="#">Features</a>
-            <a href="#">About Us</a>
-            <button class="custom_header_button">Get Started</button>
+            <!-- container with links and button -->
+            <nav class="container_link">
+                <i class="fa-solid fa-bars"></i>
+                <a href="#">Planning</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Features</a>
+                <a href="#">About Us</a>
+                <button class="custom_header_button">Get Started</button>
+            </nav>
         </div>
     </header>
     <main>
